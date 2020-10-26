@@ -1,0 +1,467 @@
+/*============================================================================================
+                Common styles
+ =============================================================================================*/
+button:focus {
+	outline: none; }
+html {
+	scroll-behavior: smooth; }
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+    background-color: #e3ecc2; }
+h1 {
+    color: #fff;
+    letter-spacing: 0;
+    width: 80%;
+    margin-left: 10%;
+    text-transform: capitalize; }
+h2 {
+    color: #7287ae;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0;
+    width: 80%;
+    margin-left: 10%; }
+h3 {
+	font-size: 45px;
+	font-weight: 700; }
+h4 {
+   font-size: 27px;
+   padding-top: 20px;
+   font-weight: 700; }
+h5 {
+	font-size: 24px; }
+.little-description1 {
+    font-size: 22px;
+    color: #fff;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif; }
+.little-description2 {
+    font-size: 20px;
+    margin-top: 25px;
+    width: 82%;
+    margin-right: 9%; }
+.little-description3 {
+    font-size: 17px;
+    margin-top: 15px; }
+.little-description4 {
+    font-size: 20px;
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 20px;
+    color: #7287ae; }
+.little-description5 {
+	font-size: 25px;
+	margin-top: 25px;
+	width: 60%;
+	margin-left: 20%;
+	color: #7287ae; }
+span {
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 1rem; }
+.fa-check-circle {
+    font-size: 18px; }
+.bg-dark {
+    background-color: transparent !important;
+    transition: .3s; }
+.is-sticky .bg-dark {
+    background-color: #3c4e6e !important;
+    transition: .5s; }
+.flex-center {
+    align-items: center; }
+.d-flex {
+    display: flex; }
+.navbar-dark .navbar-toggler {
+    border: 0; }
+/* ========Navigation CSS Start========== */
+.navbar .nav-item {
+  padding-left: 1em; }
+  .navbar .nav-item .nav-link {
+	text-transform: capitalize;
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px; }
+  .navbar .nav-item .nav-link:hover,
+  .navbar .nav-item .nav-item.active a {
+    color: #f2ce94; }
+  .navbar .nav-item .nav-link:focus {
+    color: #f2ce94; }
+  .navbar .nav-item .nav-link.active {
+    color: #f2ce94; }
+.navbar .nav-item:last-child {
+  padding-right: 0; }
+/* ========Navigation CSS End========== */
+/* ========Home Section CSS Start========== */
+#home-section {
+  min-height: 780px;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+  #home-section .home-inner {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    color: #fff; }
+	.home-inner .wave {
+	  content: "";
+      position: absolute;
+	  min-height: 780px;
+      bottom: 0;
+      left: 0; }
+    .home-inner .dot-design {
+	  float: right;
+	  position: relative;
+	  z-index: 5;
+	  padding-top: 110px; }
+    .home-inner .dot-design2 {
+	  float: left;
+	  position: relative;
+	  z-index: 6;
+	  padding-top: 150px; }	
+/* ========Home Section CSS End========== */
+/* =======Menu Section CSS Start========== */
+#menu-section .dot-design3 {
+  float: right;
+  position: relative;
+  padding-top: 55px; }
+#menu-section .showbtn {
+  margin-left: 203px;
+  margin-top: 50px;
+  font-size: 20px; }
+/* =======Menu Section CSS End========== */
+/* =======Promo Section CSS Start========== */
+#promo-section {
+	 padding-top: 120px; }
+	 #promo-section.intro {
+       height: 100%; }
+	 #promo-section .left {
+       background-color: #323a4d;
+       background-image: url(../img/img1.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       height: 580px;
+       width: 100%; }
+	 #promo-section .dot-design4 {
+	   position: absolute;
+	   margin-left: 20%;
+       z-index: 6;
+       margin-top: 523px; }
+     #promo-section .right {
+       height: 580px;
+       background-color: #fff; 
+       width: 100%;  }
+     #promo-section .left1 {
+	   background-color: #fff;
+       background-image: url(../img/img2.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center center;
+       height: 580px;
+       width: 100%; }
+     #promo-section .content {
+       width: 90%;
+       margin-left: 5%;
+       margin-top: 120px; }
+     #promo-section .readmore {
+	   margin-left: 0px;
+	   font-size: 20px; }
+	 #promo-section .dot-design5 {
+	   position: absolute;
+	   margin-left: 72%;
+       z-index: 6;
+       margin-top: 523px; }
+/* =======Promo Section CSS End========== */
+/* =======Order Section CSS Start========== */
+#order-section {
+  background-color: #7287ae;
+  color: #fff;
+  min-height: 500px; }
+#order-section h2 {
+  color: #fff; }
+#order-section h3 {
+  font-size: 30px; }
+  #order-section h3.text-circle {
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    color: #7287ae;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 60px; }
+/* =======Order Section CSS End========== */
+/* =======Delivery Section CSS Start========== */
+#delivery-section {
+  min-height: 350px;
+  background-image:  url(../img/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+#delivery-section h2 {
+  font-size: 50px; }
+  #delivery-section .dot-design6 {
+    position: relative;
+	float: left;
+	margin-top: -109px; }
+  #delivery-section .getbtn {
+	margin-left: 0px;
+	margin-top: 50px;
+	font-size: 24px; }
+  #delivery-section .dot-design7 {
+	position: relative;
+	margin-left: 27%;
+	float: right;
+	margin-top: -14px; }
+/* =======Delivery Section CSS End========== */
+/* =======Quote Section CSS Start========== */
+#quote-section {
+  padding-top: 90px; }
+  #quote-section span .quote-icon {
+	font-size: 35px;
+	color: #7287ae; }
+  #quote-section .quote-author {
+	font-size: 24px;
+	font-weight: 600;
+	color: #7287ae; }
+  #quote-section span .wp-icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+	color: #fff;
+	margin-right: 5px; }
+  #quote-section .social-icon {
+	margin-top: 40px;
+	z-index: 1;
+	position: relative; }
+	#quote-section .social-icon i {
+	  background: #7287ae;
+	  border-radius: 100%;
+	  margin: 0px 10px;
+	  font-size: 30px; }
+	#quote-section .social-icon i:hover {
+	  background: #3c4e6e; }
+/* =======Quote Section CSS End========== */
+/* =======Contact Section CSS Start========== */
+#contact-section {
+  min-height: 580px;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+#contact-section .dot-design8 {
+  float: left;
+  position: relative;
+  z-index: 6;
+  padding-top: 50px;
+  padding-left: 230px; }
+#contact-section .contact-inner {
+  padding-top: 340px;
+  padding-bottom: 10px;
+  color: #fff; }
+  .contact-inner .wave1 {
+    content: "";
+    position: absolute;
+	min-height: 580px;
+    bottom: 0;
+    left: 0; }
+/* =======Contact Section CSS End========== */
+/*============================================================================================
+                    Media Queries Start
+ =============================================================================================*/
+@media (min-width: 768px) {
+	.contact-inner .wave1 {
+	  min-height: 550px;
+	  } 
+}
+@media (min-width: 992px) {
+	.home-inner .wave {
+	  min-height: 580px;
+	  }
+	.home-inner .dot-design2 {
+	  padding-top: 160px;
+	  }
+	#contact-section {
+	  min-height: 530px;
+	  }
+	#contact-section .contact-inner {
+	  padding-top: 300px;
+	  }
+	.contact-inner .wave1{
+	  min-height: 706px;
+	  }
+	.contact-inner .dot-design8{
+	  padding-top: 78px;
+	  padding-left: 153px;
+	  }
+}
+@media (min-width: 1200px) {
+	.home-inner .dot-design2 {
+	  padding-top: 136px;
+	  }
+	.contact-inner .dot-design8 {
+	  padding-top: 0px;
+	  }
+}
+@media (max-width: 1159) {
+	.contact-inner .dot-design8 {
+	  padding-top: 30px;
+	  }
+}
+@media (max-width: 991px) {
+	#home-section {
+      min-height: 610px
+	  }
+	#home-section .home-inner {
+      padding-top: 120px;
+	  }
+	.home-inner h1 {
+      font-size: 55px; 
+	  }
+	.navbar-brand{
+	  font-size: 2.25rem;
+	  }
+	#promo-section .content-color{
+	  background-color: #ecd5e2;	 
+	  }
+	#promo-section .content-color1{
+	  background-color: #f5e0c8; 
+	  }
+	#contact-section{
+	  min-height: 50px;
+	  }
+	#contact-section .contact-inner {
+      padding-top: 85px;
+	  }
+	.contact-inner .wave1 {
+	  min-height: 550px;
+	  }
+	.little-description5 {
+	  width: 80%;
+	  margin-left: 10%;
+	  }
+}
+@media (max-width: 767px) {
+	#home-section {
+	  min-height: 520px
+	  }
+	.home-inner h1{
+	  font-size: 46px;
+	  }
+	.nav-left {
+	  position: absolute;
+	  background-color: #3c4e6e;
+	  width: 100%;
+	  left: 0;
+	  top: 100%;
+	  text-align: left;
+	  padding-left: 105px;
+	  }
+	#menu-section .showbtn {
+	  margin-left: 0px;
+	  }
+	.contact-inner .wave1 {
+	  min-height: 385px;
+	  }
+	#contact-section {
+	  min-height: 30px;
+	}
+	#contact-section .contact-inner {
+      padding-top: 35px;
+	  }
+	h4 {
+	  font-size: 22px;
+	  padding-top: 66px;
+	  }
+	h5 {
+	  font-size: 16px;
+	  }
+    .contact-inner .txtright {
+      text-align: right !important;
+	  }
+	.little-description4 {
+	  width: 80%;
+	  margin-left: 10%;
+	  } 
+}
+@media (max-width: 600px) {
+	.nav-left{
+	  padding-left: 40px;
+	  }
+}
+@media (max-width: 575px) {
+	#home-section {
+	  min-height: 356px;
+	  background-color: #7287ae; 
+	  }
+	#home-section .home-inner {
+      padding-top: 67px;
+	  }
+	.home-inner h1 {
+      font-size: 41px; 
+	  }
+    .home-inner p {
+      font-size: 18px; 
+	  }
+	.nav-left {
+	  padding-left: 0px !important;}
+	h5 {
+	  color: #7287ae;
+	  font-size: 22px !important;
+	  text-align: center;
+	  }
+	
+    h1{
+	  padding-top: 30px;
+	  }
+	h2{
+	  padding-top: 33px;
+	  }
+}
+@media (max-width: 480px) {
+	.little-description3 {
+	  font-size: 16px;
+	  padding-top: 0px !important;
+	  }
+}
+@media (max-width: 450px) {
+	.navbar-brand{
+	  font-size: 1.65rem;
+	  }
+	#home-section .home-inner{
+	  padding-top: 90px;
+	  }
+	#home-section .display-3{
+	  font-size: 2.2rem;
+	  }
+}
+@media (max-width: 380px) {
+	#promo-section .content {
+	  margin-top: 10px;
+	  }
+}
+/*============================================================================================
+                    Media Queries End
+ =============================================================================================*/
+
+ 
+  
+
+
+
+
+
+
+  
+	
+
+ 
+
+
+
+	
